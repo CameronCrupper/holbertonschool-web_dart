@@ -8,5 +8,5 @@ int sub(int a, int b)
 }
 String showFunc(int a, int b)
 {
-  return('Add ${a} + ${b}' + '\n' + 'Sub ${a} - ${b}');
+  return('Add ${a} + ${b} = ${add(a, b)}' + '\n' + 'Sub ${a} - ${b} = ${sub(a, b)}');
 }
